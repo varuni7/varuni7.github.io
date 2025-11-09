@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varuni - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Varuni</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#speaking" class="nav-link">Speaking Initiatives</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <h1 class="name">Varuni</h1>
+            
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <img src="profile.jpg" alt="Varuni" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="profile-placeholder" style="display: none;">
+                        <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="100" fill="#e0e0e0"/>
+                            <circle cx="100" cy="80" r="30" fill="#999"/>
+                            <path d="M50 160 Q50 130 100 130 Q150 130 150 160 L150 200 L50 200 Z" fill="#999"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="profile-content">
+                    <div class="work-info">
+                        <h2>Current Work</h2>
+                        <p class="org-name">Couchbase</p>
+                        <p class="team-name">Indexing Team</p>
+                    </div>
+                    
+                    <div class="bio">
+                        <h2>About Me</h2>
+                        <p>I'm a software engineer passionate about building scalable systems and contributing to the developer community. Currently working on indexing technologies at Couchbase, I enjoy solving complex problems and sharing knowledge through speaking engagements.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-news">
+                <h2>Recent News & Accomplishments</h2>
+                <div class="news-list">
+                    <div class="news-item">
+                        <span class="news-date">August 16, 2025</span>
+                        <span class="news-text">Spoke at GopherCon India</span>
+                    </div>
+                    <!-- Add more news items here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speaking Initiatives Section -->
+    <section id="speaking" class="section">
+        <div class="container">
+            <h1 class="section-title">Speaking Initiatives</h1>
+            <div class="speaking-list">
+                <div class="speaking-item">
+                    <div class="speaking-header">
+                        <h3 class="speaking-event">GopherCon India 2025</h3>
+                        <span class="speaking-date">August 16, 2025</span>
+                    </div>
+                    <p class="speaking-topic">Topic: [Your Topic Here]</p>
+                    <a href="#" class="slides-link" target="_blank">View Slides →</a>
+                </div>
+                <!-- Add more speaking items here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Varuni. Built with ❤️ for GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
