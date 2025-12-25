@@ -287,6 +287,47 @@ body {
     font-size: 0.95rem;
 }
 
+/* Resume */
+.resume-link-container {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.resume-link {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+.resume-link:hover {
+    text-decoration: none;
+}
+
+/* The Ship of Theseus */
+.substack-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.substack-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.substack-link {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+.substack-link:hover {
+    text-decoration: none;
+}
+
 /* Footer */
 footer {
     background-color: var(--bg-light);
