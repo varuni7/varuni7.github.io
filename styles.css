@@ -288,20 +288,16 @@ body {
 }
 
 /* Resume */
-.resume-link-container {
-    text-align: center;
+.resume-container {
     max-width: 900px;
     margin: 0 auto;
+    width: 100%;
 }
 
-.resume-link {
-    font-size: 1.2rem;
-    color: var(--text-color);
-    text-decoration: underline;
-}
-
-.resume-link:hover {
-    text-decoration: none;
+.resume-pdf {
+    width: 100%;
+    height: 800px;
+    border: 1px solid var(--border-color);
 }
 
 /* The Ship of Theseus */
@@ -394,6 +390,10 @@ footer {
 
     .section-title {
         font-size: 2rem;
+    }
+
+    .resume-pdf {
+        height: 600px;
     }
 }
 
