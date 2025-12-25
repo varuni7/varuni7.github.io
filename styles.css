@@ -267,11 +267,24 @@ body {
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--text-color);
-    padding: 0.5rem 0;
+    margin-bottom: 2rem;
 }
 
-.publication-text {
+.publication-title {
+    font-weight: 600;
     color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.publication-venue {
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+    font-style: italic;
+}
+
+.publication-author {
+    color: var(--text-color);
+    font-size: 0.95rem;
 }
 
 /* Footer */
